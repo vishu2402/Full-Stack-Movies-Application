@@ -1,4 +1,4 @@
-package dev.farhan.movieist;
+package dev.vishal.Movies;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @SpringBootApplication
 public class MoviesApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(dev.farhan.movieist.MoviesApplication.class, args);
+		SpringApplication.run(dev.vishal.Movies.MoviesApplication.class, args);
 	}
 
 	@Bean
